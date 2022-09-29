@@ -1,0 +1,47 @@
+nav {
+    float: left;
+}
+
+h1 {
+    margin-left: 18em;
+    font-family: Poppins;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/poppins/Poppins-Regular.ttf');
+}
+
+article {
+    margin-left: -5em;
+}
+
+#lista_modulos {
+    font-family: Poppins;
+    margin-left: 1em;
+    font-size: larger;
+}
+
+#lista_prof {
+    font-family: Poppins;
+    margin-left: 1em;
+    font-size: larger;
+}
+
+#listas {
+    float: right;
+    margin-right: 15em;
+}
+
+#foto_link {
+    float: left;
+}
+
+#descripcion {
+    float: bottom;
+}
+
+#anclas {
+    position: relative;
+    border-style: solid;
+}
