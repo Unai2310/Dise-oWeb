@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/poppins/Poppins-Regular.ttf');
+}
+
+header {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.header-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:gray;
+}
+
+.header-flex > div {
+    width: calc((100% / 3) - 30px);
+    margin: 10px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+main {
+    background-color: rebeccapurple;
+    width: 55rem;
+}
+
+.main-flex{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    
+}
+
+.main-flex > article{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    font-family: Poppins;
+}
+
+.contenedor {
+    display:flex;
+    flex-direction:row;
+}
+
+.der{
+    margin-right: 20rem;
+    background-color: beige;
+    width: 12rem;
+    padding-top: 4rem;
+    display:flex;
+    flex-direction:column;
+}
+
+aside>div {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family: Poppins;
+    background-color: yellow;
+    margin-top: 3rem;
+}
+
+.izq {
+    margin-left: 20rem;
+    background-color: firebrick;
+    width: 12rem;
+    display:flex;
+    padding: 1rem;
+    flex-direction:column;
+}
+
+ul {
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+footer {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkcyan;
+}
+
+footer>div {
+    width: calc((100% / 3) - 30px);
+    margin: 10px;
+    background-color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins;
+}
