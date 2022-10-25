@@ -1,0 +1,193 @@
+@media screen and (max-width: 768px) {
+    .contenedor {
+        display:flex;
+        flex-flow:column wrap;
+        text-align: left;
+        font-family: Poppins;
+        font-size: 34px;
+    }
+    .elemento1 {
+        background-color: orange;;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento2 {
+        background-color: grey;
+        color: white;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento3 {
+        background-color: green;
+        color: white;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento4 {
+        background-color: cornflowerblue;
+        color: white;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento5 {
+        background-color: rgb(224, 176, 255);
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .contenedor {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 24px;
+        font-family: Poppins;
+    }
+    .elemento1 {
+        width: 45%;
+        background-color: orange;
+        margin-top: 1rem;
+        padding: 1rem;
+        margin-right: 1%;
+    }
+    .elemento2 {
+        width: 45%;
+        background-color: grey;
+        color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .elemento3 {
+        width: 45%;
+        background-color: green;
+        margin-top: 1rem;
+        padding: 1rem;
+        margin-right: 1%;
+    }
+    .elemento4 {
+        width: 45%;
+        color: white;
+        padding: 1rem;
+        background-color: cornflowerblue;
+        margin-top: 1rem;
+    }
+    .elemento5 {
+        width: 100%;
+        padding: 1rem;
+        color: rgb(224, 176, 255);
+        margin-top: 1rem;
+        border-width: 20px;
+        border-color: rgb(224, 176, 255);
+        border-style: solid;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .contenedor {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 10px;
+        font-family: Poppins;
+    }
+    .elemento1 {
+        width: 26%;
+        background-color: orange;
+        margin-top: 1rem;
+        padding: 1rem;
+        margin-right: 2%;
+    }
+    .elemento2 {
+        width: 26%;
+        background-color: grey;
+        color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-right: 2%;
+    }
+    .elemento3 {
+        width: 26%;
+        background-color: green;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .elemento4 {
+        width: 40%;
+        padding: 1rem;
+        color: cornflowerblue;
+        margin-top: 1rem;
+        margin-right: 1%;
+        border-width: 15px;
+        border-color: cornflowerblue;
+        border-style: solid;
+    }
+    .elemento5 {
+        width: 40%;
+        padding: 1rem;
+        color: rgb(224, 176, 255);
+        margin-top: 1rem;
+        border-width: 15px;
+        border-color: rgb(224, 176, 255);
+        border-style: solid;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .contenedor {
+        display:flex;
+        flex-flow:row wrap;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 10px;
+    }
+    .elemento1 {
+        width: 10%;
+        background-color: orange;;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento2 {
+        width: 10%;
+        background-color: grey;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento3 {
+        width: 10%;
+        background-color: green;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento4 {
+        width: 10%;
+        background-color: cornflowerblue;
+        width: 6rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .elemento5 {
+        padding: 1rem;
+        width: 40%;
+        color: rgb(224, 176, 255);
+        border-width: 15px;
+        margin: 1rem;
+        font-size: 30px;
+        border-color: rgb(224, 176, 255);
+        border-style: solid;
+    }
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/poppins/Poppins-Regular.ttf');
+}
