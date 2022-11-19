@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/poppins/Poppins-Regular.ttf');
+}
+header {
+    background-color: #000000;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+.contenedor-flex>a {
+    width: calc((100% / 6) - 30px);
+    margin: 10px;
+    text-align: center;
+}
+.boton  {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Poppins;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+.boton:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
