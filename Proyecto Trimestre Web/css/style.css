@@ -2,10 +2,10 @@
     font-family: 'Poppins';
     src: url('font/poppins/Poppins-Regular.ttf');
 }
-header {
-    background-color: #000000;
-}
 
+body {
+    background-image: url("../resources/fondo.jpg");
+}
 .contenedor-flex {
     display: flex;
     flex-wrap: nowrap;
@@ -33,6 +33,7 @@ header {
     font-family: Poppins;
     color: #000000;
     font-size: 20px;
+    border: solid rgb(153, 217, 234) 4px;
     padding: 20px;
     text-decoration: none;
 }
