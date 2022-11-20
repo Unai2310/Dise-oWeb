@@ -144,18 +144,17 @@
         font-family: Poppins;
     }
     article {
-        margin: 3rem;
         float: left;
     }
     h1 {
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         color: rgb(255, 117, 20);
     }
     .contenedor-botones {
         display: flex;
         flex-wrap: nowrap;
-        padding: 2rem;
+        padding: 1rem;
     }
     .contenedor-i {
         display: flex;
@@ -200,6 +199,7 @@
         font-family: Poppins;
     }
     .elemento-hobbie1 {
+        font-size: xx-small;
         width: 75%;
         text-align: left;
         color: yellow;
@@ -207,6 +207,7 @@
     }
     .elemento-hobbie2 {
         width: 25%;
+        font-size: xx-small;
     }
     .elemento-poco {
         width: calc((100% / 2) - 30px);
@@ -215,10 +216,9 @@
         background-color:transparent;
     }
     .subtitulo {
-        font-size: large;
+        font-size: xx-small;
         font-family: Poppins;
         color: yellow;
-        padding: 3rem;
     }
     footer {    
         background-color: transparent;
@@ -239,8 +239,9 @@
     }
     .contenedor-botones>a {
         width: calc((100% / 6) - 30px);
-        margin: 10px;
+        margin: 5px;
         text-align: center;
+        font-size: 5px;
     }
     .boton  {
         background: #ffffff;
