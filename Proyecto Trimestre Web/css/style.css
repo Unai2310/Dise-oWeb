@@ -2,16 +2,60 @@
     font-family: 'Poppins';
     src: url('font/poppins/Poppins-Regular.ttf');
 }
-
 body {
     background-image: url("../resources/fondo.jpg");
 }
-.contenedor-flex {
+main {
+    font-family: Poppins;
+}
+article {
+    margin: 3rem;
+    float: left;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 117, 20);
+}
+.contenedor-botones {
     display: flex;
     flex-wrap: nowrap;
     padding: 2rem;
 }
-.contenedor-flex>a {
+.elemento-poco {
+    width: calc((100% / 2) - 30px);
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+}
+.contenedor-poco {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    padding: 2rem;
+}
+.contenedor-info {
+    display:flex;
+    flex-direction:column;
+    background-color: transparent;
+    font-family: Poppins;
+}
+.subtitulo {
+    font-size: large;
+    font-family: Poppins;
+    color: red;
+    padding: 5rem;
+}
+footer {    
+    background-color: transparent;
+    text-align: center;
+}
+.elemento {
+    color:#FFFFFF;
+    text-align: center;
+    font-size:2rem;
+}
+.contenedor-botones>a {
     width: calc((100% / 6) - 30px);
     margin: 10px;
     text-align: center;
