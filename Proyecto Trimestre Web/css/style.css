@@ -22,16 +22,40 @@ h1 {
     flex-wrap: nowrap;
     padding: 2rem;
 }
-.elemento-poco {
-    width: calc((100% / 2) - 30px);
-    margin: 10px;
-    text-align: center;
-    background-color: yellow;
+.contenedor-i {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+.contenedor-c {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+.contenedor-texto {
+    color: red;
+    width: 50%;
+    display:flex;
+    flex-flow:row wrap;
+    margin: 1rem;
+    align-content:stretch;
+}
+.contenedor-fotos {
+    width: 50%;
+    margin: 1rem;
+    display:flex;
+    flex-flow:column wrap;
+    align-content:stretch;
 }
 .contenedor-poco {
     display: flex;
     flex-wrap: nowrap;
     flex-direction:row;
+    padding: 2rem;
+}
+.contenedor-port {
+    display: flex;
+    flex-wrap: nowrap;
     padding: 2rem;
 }
 .contenedor-info {
@@ -40,11 +64,26 @@ h1 {
     background-color: transparent;
     font-family: Poppins;
 }
+.elemento-hobbie1 {
+    width: 75%;
+    text-align: left;
+    color: red;
+    background-color: transparent;
+}
+.elemento-hobbie2 {
+    width: 25%;
+}
+.elemento-poco {
+    width: calc((100% / 2) - 30px);
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+}
 .subtitulo {
     font-size: large;
     font-family: Poppins;
     color: red;
-    padding: 5rem;
+    padding: 3rem;
 }
 footer {    
     background-color: transparent;
@@ -85,4 +124,4 @@ footer {
 .boton:hover {
     background: #3cb0fd;
     text-decoration: none;
-  }
+}
