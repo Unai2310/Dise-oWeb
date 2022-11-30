@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>Dibujando !!</title>
+<script type="text/JavaScript">
+    function dibujar() {
+        var milienzo = document.getElementById("canvas01");
+        var micontexto = milienzo.getContext("2d");
+        //Cuadrado Naranja
+        micontexto.beginPath();
+        micontexto.strokeStyle="#008f39";
+        micontexto.strokeRect(25,25,100,100);
+        micontexto.closePath();
+        //Circulo Verde
+        micontexto.beginPath();
+        micontexto.strokeStyle="#ff8000";
+        micontexto.arc(200, 50, 40, 0,  2  * Math.PI);
+        micontexto.stroke();
+        micontexto.closePath();
+        //Triangulo Morado
+        micontexto.beginPath();
+        micontexto.strokeStyle="#800080";
+        micontexto.moveTo(50,200);
+        micontexto.lineTo(50,300);
+        micontexto.lineTo(150,300);
+        micontexto.lineTo(50,200);
+        micontexto.stroke();
+        micontexto.closePath();
+        //Cuadrado Amarillo
+        micontexto.beginPath();
+        micontexto.strokeStyle="#0000ff";
+        micontexto.strokeRect(300,25,200,100);
+        micontexto.closePath();
+
+
+        milienzo = document.getElementById("canvas02");
+        micontexto = milienzo.getContext("2d");
+        //Figura Rojo
+        micontexto.beginPath();
+        micontexto.strokeStyle="#ff0000";
+        micontexto.moveTo(190,30);
+        micontexto.lineTo(230,30);
+        micontexto.lineTo(210,50);
+        micontexto.lineTo(250,50);
+        micontexto.lineTo(230,70);
+        micontexto.lineTo(190,70);
+        micontexto.lineTo(170,90);
+        micontexto.lineTo(130,90);
+        micontexto.lineTo(150,70);
+        micontexto.lineTo(110,70);
+        micontexto.lineTo(130,50);
+        micontexto.lineTo(170,50);
+        micontexto.lineTo(190,30);
+        //-----------------------------------
+        micontexto.moveTo(250,50);
+        micontexto.lineTo(250,90);
+        micontexto.lineTo(270,70);
+        micontexto.lineTo(270,110);
+        micontexto.lineTo(250,130);
+        micontexto.lineTo(250,170);
+        micontexto.lineTo(230,190);
+        micontexto.lineTo(230,150);
+        micontexto.lineTo(210,170);
+        micontexto.lineTo(210,130);
+        micontexto.lineTo(230,110);
+        micontexto.lineTo(230,70);
+        //-----------------------------------
+        micontexto.moveTo(130,90);
+        micontexto.lineTo(130,130);
+        micontexto.lineTo(90,130);
+        micontexto.lineTo(90,170);
+        micontexto.lineTo(130,170);
+        micontexto.lineTo(130,210);
+        micontexto.lineTo(170,210);
+        micontexto.lineTo(170,170);
+        micontexto.lineTo(210,170);
+        micontexto.lineTo(210,130);
+        micontexto.lineTo(170,130);
+        micontexto.lineTo(170,90);
+        //-----------------------------------
+        micontexto.moveTo(110,170);
+        micontexto.lineTo(110,190);
+        micontexto.lineTo(130,190);
+        //-----------------------------------
+        micontexto.moveTo(90,130);
+        micontexto.lineTo(110,110);
+        micontexto.lineTo(130,110);
+        micontexto.moveTo(110,70);
+        micontexto.lineTo(110,110);
+        //-----------------------------------
+        micontexto.moveTo(170,130);
+        micontexto.lineTo(190,110);
+        micontexto.lineTo(230,110);
+        micontexto.moveTo(190,70);
+        micontexto.lineTo(190,110);
+        //-----------------------------------
+        micontexto.moveTo(170,210);
+        micontexto.lineTo(190,190);
+        micontexto.lineTo(230,190);
+        micontexto.moveTo(190,170);
+        micontexto.lineTo(190,190);
+        //-----------------------------------
+        micontexto.moveTo(230,30);
+        micontexto.lineTo(230,50);
+        //-----------------------------------
+        micontexto.moveTo(250,70);
+        micontexto.lineTo(270,70);
+        micontexto.stroke();
+        micontexto.closePath();
+
+    }
+</script>
+</head>
+<body onload="JavaScript:dibujar();">
+<h1>Pintando en el lienzo</h1>
+<canvas id="canvas01" width="600" height="400" style="border:1px solid "></canvas><br>
+<canvas id="canvas02" width="300" height="300" style="border:1px solid "></canvas><br>
+<h1>Paginas de interes CANVAS</h1>
+<a href="https://www.w3schools.com/html/html5_canvas.asp">W3Schools</a><br>
+<a href="https://codepen.io/keenancrane/pen/zKqbpb">SandBox CANVAS</a>
+</body>
+</html>
