@@ -1,0 +1,45 @@
+@mixin large-text {
+    font: {
+      family: Arial;
+      size: 20px;
+      weight: bold;
+    }
+    color: #ff0000;
+  }
+  
+  @mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid blue;
+  }
+  @mixin clearfix {
+    display: inline-block;
+    &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      
+    }
+    * html & { height: 1px }
+  }
+  
+  // con parámetros
+  @mixin transformar($propiedad) {
+    -webkit-transform: $propiedad;
+    -ms-transform: $propiedad;
+    transform: $propiedad;
+  }
+
+  @mixin encabezados($tamano) {
+    h2 {
+      font-size: $tamano;
+    }
+    h3 {
+      font-size: $tamano - 0.2;
+    }
+    h4 {
+      font-size: $tamano - 0.5;
+    }
+  }

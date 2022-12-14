@@ -1,0 +1,68 @@
+
+@import "componentes/_nestings";
+@import "componentes/_piepagina";
+
+
+$bg-color: hsl(320, 64%, 57%);
+$contenedor: rgb(143, 140, 140);
+$size: 1em;
+
+//distintos tipos de variables
+$numero : 10;
+$string: "Carmen";
+$list: 60px auto ;
+$boolean: true;
+$map: (
+    primary: hsl(325, 71%, 27%),
+    secondary: hsl(44, 64%, 57%),
+    contrast: hsl(320, 64%, 57%)
+);
+$map2: (
+    clave: "primario",
+    clave2: "secundario"
+);
+
+
+body {
+
+background-color: $bg-color;
+margin: $size * 2;
+
+.element:before {
+    content: map-get($map2, clave);
+}
+
+.element {
+    color: map-get($map, primary);
+}
+
+.element2:after {
+    content: map-get($map2, clave2);
+}
+
+.element2 {
+    color: map-get($map, secondary);
+}
+
+
+.contenedor {
+    width: 75%;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    margin: $list;
+    align-items: center;
+    background: $contenedor;
+    box-shadow: Opx 0px 50px rgba(82, 82, 82, 0.1);
+
+    h1 {
+        
+        font-size: 80px;
+        margin-bottom: 10px;
+
+    }
+
+
+    
+}
+}

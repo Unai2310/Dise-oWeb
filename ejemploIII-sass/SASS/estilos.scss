@@ -1,0 +1,36 @@
+
+@import "componentes/_mixins";
+
+
+
+.danger {
+    @include important-text;
+    background-color: green;
+    margin:1px;
+  }
+  
+  p {
+      @include large-text;
+      font-style: italic;
+  }
+  div {
+    @include clearfix;
+  }
+
+  .escalada {
+    @include transformar(scale(2, 3))
+  }
+  
+  h1 {
+    color: blue;
+    @include transformar(rotate(22deg))
+  }
+
+  
+  @include encabezados(1.5em);
+  @media(min-width: 800px) {
+    @include encabezados(2em);
+  }
+  @media(min-width: 1200px) {
+    @include encabezados(2.5em);
+  }
