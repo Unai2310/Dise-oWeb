@@ -1,6 +1,41 @@
+.menu {
+  margin: 0;
+}
+
+.menu .link {
+  text-decoration: none;
+}
+
+footer {
+  height: 4rem;
+  background-color: #444141;
+}
+
+footer p {
+  color: azure;
+  font-size: 3rem;
+  text-align: center;
+}
+
 body {
-  background-color: #df0101;
+  background-color: #d84ba9;
   margin: 2em;
+}
+
+body .element:before {
+  content: "primario";
+}
+
+body .element {
+  color: #76144d;
+}
+
+body .element2:after {
+  content: "secundario";
+}
+
+body .element2 {
+  color: #d8b24b;
 }
 
 body .contenedor {
@@ -8,7 +43,7 @@ body .contenedor {
   border-radius: 10px;
   padding: 50px;
   text-align: center;
-  margin: 50px auto;
+  margin: 60px auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

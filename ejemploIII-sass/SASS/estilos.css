@@ -1,0 +1,79 @@
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid blue;
+  background-color: green;
+  margin: 1px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  font-style: italic;
+}
+
+div {
+  display: inline-block;
+}
+
+div:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+* html div {
+  height: 1px;
+}
+
+.escalada {
+  -webkit-transform: scale(2, 3);
+  transform: scale(2, 3);
+}
+
+h1 {
+  color: blue;
+  -webkit-transform: rotate(22deg);
+  transform: rotate(22deg);
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+@media (min-width: 800px) {
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 2.3em;
+  }
+  h4 {
+    font-size: 2em;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
