@@ -1,0 +1,9 @@
+footer {
+    height: 4rem;
+    background-color: #444141;
+    p {
+    color:azure;
+    font-size: 3rem;
+    text-align: center;
+      }
+    }
