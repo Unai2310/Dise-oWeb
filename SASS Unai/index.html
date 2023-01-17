@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="200" height="200"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Cursos de lenguajes de programacion para todas las edades</h1>
+            <p>
+                Informate sobre todos nuestros cursos y decidete a estudiar los lenguajes que los informaticos necsitan saber.
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">COMUNICATE</button>
+                <button class="btn-secundario" type ="submit">PORTAFOLIO</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/caratula2.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Los Usuarios Salen Sabiendo Todo lo Necesario</h2>
+                <p>
+                    Consulta algunos de los proyectos de los antiguos asistentes a nuestro cursos en el PortFolio y comprueba lo que puedes llegar a aprender.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Diseño UX/UI</h3>
+                    <p>
+                        Diseño de interfaces avanzado para la alpicaciones diseñadas.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Desarrollo WEB</h3>
+                    <p>
+                        Desarrollo de aplicaciones en lenguajes de programación de desarrollo web.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Desarrollo Multiplataforma</h3>
+                    <p>
+                        Diseño de aplicaciones comerciales con lenguajes de programación de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            <a href="https://www.instagram.com/unai_a_r/?hl=es"> <img src="img/instagram.png"  class="logo"></a>
+            <a href="https://unaiyanton@gmail.com"> <img src="img/gmail.png"  class="logo"></a>
+            <a href="https://github.com/Unai2310"> <img src="img/github.png"  class="logo"></a>
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
